@@ -6,6 +6,7 @@ type Props = {
   openForm : (id: string) => void
 }
 export default function ActivityDetails({ activity, cancelSelectActivity, openForm }: Props) {
+
   return (
     <Card sx={{ borderRadius: 3 }}>
       <CardMedia
